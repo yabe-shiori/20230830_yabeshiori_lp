@@ -321,10 +321,16 @@ rt {
   text-decoration: none;
   border-radius: 5%;
 }
+.card__item:hover {
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+}
+
 .card__img {
   border-radius: 15% 5% 0 0 ;
   width: 100%;
 }
+
 .top-left {
   color: white;
   font-size: 1.2rem;
@@ -337,9 +343,11 @@ rt {
   left: 0px;
   border-radius: 15% 0 0 0;
 }
+
 .card__img img {
   width: 100%;
 }
+
 .card__content {
   color: black;
   font-size: 1.3rem;
@@ -354,14 +362,17 @@ rt {
   justify-content: space-between;
   margin: 0 2rem;
 }
+
 .card__date {
   display: inline-block;
   color: rgb(120, 120, 120)
 }
+
 .card__tag {
   display: inline-block;
   color: rgb(120, 120, 120);
 }
+
 .container__btn {
   width: 17rem;
   font-size: 1.5rem;
@@ -376,6 +387,12 @@ rt {
   text-decoration: none;
   margin: 3rem auto 0;
 }
+
+.container__btn:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
 .about {
   padding: 5rem;
 }
@@ -384,11 +401,13 @@ rt {
   text-align: left;
   border-spacing: 0;
 }
+
 table {
   width: 60%;
   border-collapse: collapse;
   margin: auto;
 }
+
 .table__ttl {
   color: rgb(120, 120, 120);
   font-size: 2.5rem;
@@ -396,10 +415,12 @@ table {
   text-align: left;
   margin-bottom: 2rem;
 }
+
 .table__ttl rt {
   font-size: 1.5rem;
   text-align: left;
 }
+
 table th,
 table td {
   font-size: 1.6rem;
@@ -407,16 +428,20 @@ table td {
   border: 0.1rem solid rgb(158, 158, 158);
   padding: 2rem;
 }
+
 table th {
   background-color: rgb(245, 245, 245);
 }
+
 table td {
   padding-right: 13rem;
 }
+
 .information {
   width: 100%;
   display: flex;
 }
+
 .information__left {
   width: 50%;
   position: relative;
@@ -425,6 +450,7 @@ table td {
 .information__left img {
   width: 100%;
 }
+
 .information__left__ttl {
   color: white;
   font-size: 3rem;
@@ -432,15 +458,17 @@ table td {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-
 }
+
 .information__right {
   width: 50%;
   position: relative;
 }
+
 .information__right img {
   width : 100%;
 }
+
 .information__right__ttl {
   color: white;
   font-size: 3rem;
@@ -449,23 +477,25 @@ table td {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
 .contact {
   padding-top: 10rem;
   text-align: center;
 }
+
 .contact__ttl {
   font-size: 1.6rem;
   font-weight: bold;
   color:rgb(158, 158, 158);
   padding-bottom: 1rem;
-
 }
 
 .contact__ttl-under  {
-  font-size: 2rem;
-  font-weight: lighter;
+  font-size: 3rem;
+  font-weight:100;
   color:rgb(209, 23, 144);
 }
+
 .contact__btn {
   position: relative;
   font-size:1.4rem;
@@ -474,12 +504,18 @@ table td {
   width: 20rem;
   padding: 2rem 0;
   border-radius: 3rem;
-  background: linear-gradient(to right, rgb(254, 30, 144), rgb(180, 23, 100));
+  background: linear-gradient(to right, rgb(254, 30, 144)0%, rgb(217, 26, 122)50%, rgb(180, 23, 100)100%);
   text-align: center;
   box-shadow: 0 0.6rem 0 rgb(132, 0, 80);
   margin: 2rem auto;
   display: block;
 }
+
+.contact__btn:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
 .contact__btn::before {
   content: "";
   display : inline-block;
@@ -488,9 +524,10 @@ table td {
   position: absolute;
   top: 1.6rem;
   left: 10%;
-  background: url(mailicon.svg) no-repeat;
+  background: url(../img/mailicon.svg) no-repeat;
   background-size: contain;
 }
+
 .footer {
   margin-top: 6rem;
   background:rgb(245, 245, 245);
