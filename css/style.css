@@ -80,6 +80,7 @@ rt {
   margin: 0 auto;
 }
 .news__ttl {
+  text-align: center;
   font-size: 2rem;
   color:rgb(117, 117, 117);
   margin-top: 8rem;
