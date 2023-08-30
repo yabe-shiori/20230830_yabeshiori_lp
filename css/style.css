@@ -91,8 +91,8 @@ rt {
 }
 
 .news__list {
+  text-align: center;
   list-style: none outside;
-  margin: 0;
   padding: 0;
 }
 
@@ -200,18 +200,19 @@ rt {
 
 .item1 {
   width: 100%;
+  padding: 4%;
   background-color:rgb(179, 22, 103);
 }
 
 .item1 img {
   display: block;
   margin: auto;
-  width: 30%;
+  width: 25%;
 }
 
 .item1__ttl {
   margin-top: 2rem;
-  font-size:1.6rem;
+  font-size: 1.5rem;
   text-align: center;
   color: white;
   margin-bottom: 1rem;
@@ -225,6 +226,7 @@ rt {
 }
 
 .item2 {
+  padding: 4%;
   background-color:rgb(179, 91, 139);
 }
 
@@ -250,6 +252,7 @@ rt {
 }
 
 .item3 {
+  padding: 4%;
   background-color: rgb(178, 136, 158);
 }
 
@@ -350,6 +353,7 @@ rt {
 
 .card__content {
   color: black;
+  text-align: center;
   font-size: 1.3rem;
   line-height: 1.5;
   margin: 1rem;
